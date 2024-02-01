@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h2>Etape 1 : Identité</h2>
+        <label>Civilité</label><br>
+        <input name="civilite" type="radio" value="monsieur">
+        <label>Monsieur</label>
+        <input name="civilite" type="radio" value="madame">
+        <label>Madame</label><br>
+        <label>Nom</label>
+        <input type="text" placeholder="Champ obligatoire" maxlength="20" id="name" required><br>
+        <label>Prenom</label>
+        <input type="text" placeholder="Champ obligatoire" maxlength="20" id="prenom" required><br>
+        <label>Email</label>
+        <input type="email" placeholder="exemple@domaine.com" maxlength="50" id="mail" required><br>
+        <label>Telephone</label>
+        <input type="tel" required id="tel" maxlength="10">
+    <h2>Etape 2 : Adresse de livraison</h2>
+        <label>Adresse</label>
+        <textarea id="adresse"></textarea><br>
+        <label>Code postal</label>
+        <input type="text" id="codePostal" maxlength="5" required><br>
+        <label>Ville</label>
+        <input type="text" id="ville" maxlength="30" required>
+    <h2>Etape 3 : Informations CB</h2>
+        <label>Type de carte bancaire</label><br>
+        <input name="carte" type="radio" value="VISA">
+        <label>VISA</label>
+        <input name="carte" type="radio" value="AmEx">
+        <label>AmEx</label>
+        <input name="carte" type="radio" value="Mastercard">
+        <label>Mastercard</label><br>
+        <label>Numéro de carte</label>
+        <input type="text" id="numCarte"  maxlength="16" required><br>
+        <label>Code sécurité</label>
+        <input type="text" id="codeSecurite" maxlength="3" required><br>
+        <button onclick="verifierFormulaire()">Valider</button>
+    <p id="feedback"></p>
+    <script src="js/script.js"></script>
+</body>
+</html>
