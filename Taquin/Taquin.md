@@ -1,6 +1,6 @@
 # Jeu du Taquin
 
-créer à partir de consigne du TP_2 exercice 3 dont voici la consigne : 
+créer à partir de consigne du TP_2 exercice 3 dont voici la consigne :
 ![image de la consigne du taquin](ConsigneImg.png)
 
 Ce projet est organisé de la façon suivante :

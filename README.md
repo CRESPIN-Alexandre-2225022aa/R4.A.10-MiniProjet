@@ -11,3 +11,5 @@ Projets de la matière R4.A.10 - Complément Web fais en JavaScript pure
 [Lien vers le readme du projet](/Formulaire/Formulaire.md)
 
 ## Projet 3 - Snake
+
+[Lien vers le readme du projet](/Snake/Snake.md)
